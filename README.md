@@ -21,8 +21,7 @@ Request Payload
          "quantity": 7
      }
  ],
- "customerEmail": "abcd@gmail.com",
- "customerName": "Anand Dubey"
+
 }
 
 Response
@@ -34,12 +33,7 @@ Response
 Response
 
 { "id": 3, "orderDescription": "This order is for my friend's Marriage",
-
-  "customer": {
-      "id": 2,
-      "name": "Anand Dubey",
-      "email": "anand@gmail.com"
-  },
+,
   "cartItems": [
       {
           "id": 4,
